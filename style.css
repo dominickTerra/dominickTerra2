@@ -1,0 +1,124 @@
+body {
+	padding-top: 70px;
+  background-color: #F4F4F4;
+}
+
+h1 {
+  color: #FFFEFE;
+}
+
+.navbar {
+    /*overflow: hidden;*/
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; 
+    right: 0;
+    left: 0;
+    z-index: 2000;/* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.jumbotron {
+	  margin-bottom: 2rem;
+    background-color: #426990;
+    border-radius: .3rem;
+    margin-top: 20px
+}
+
+
+.effect2
+{
+  position: relative;
+
+}
+
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+img {
+    border: none; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    /* Some padding */
+     /* Set a small width */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+.thumbnail img {
+    height:250px;
+    width:100%;
+}
+
+
+
+
+/*img.hoverImages {
+
+	margin:0px;
+	padding:6px;
+	outline:2px solid #DDD;
+	border:#a1a1a1;	
+	float:center;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+ 
+img.hoverImages:hover {
+	cursor:pointer;
+    margin-top: 5px;
+}
+
+*/
